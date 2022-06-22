@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('forecast_rain/',include('forecast_rain.urls')),
+    path('',include('forecast_rain.urls')),
     path('admin/', admin.site.urls),
 ]
