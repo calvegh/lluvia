@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=vkz95f-$z4)b566-w3azs&!r#mgp2ee$1djk8rvx-u6z=fhl1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['170.187.141.96']
+ALLOWED_HOSTS = ['170.187.141.96','localhost']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'lluvia'
 ]
 
 MIDDLEWARE = [
